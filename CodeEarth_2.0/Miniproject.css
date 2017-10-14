@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+div{
+    
+	
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0px;
+}
+.header {
+	 background-image: url("Earth4.jpg");
+	 background-repeat: no-repeat;
+    display : flex; 
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: #333;
+
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #C5CAE9;
+}
+
